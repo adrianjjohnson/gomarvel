@@ -1,9 +1,9 @@
-package client
+package gomarvel
 
 import (
 	"net/http"
 
-	"github.com/adrianjjohnson/gomarvel"
+	"github.com/adrianjjohnson/gomarvel/model"
 )
 
 const (
@@ -18,7 +18,7 @@ type Service interface {
 
 // CharacterService is responsible for fetching charactes.
 type CharacterService interface {
-	GetAllCharacters() (gomarvel.Result, error)
+	GetAllCharacters() (model.Result, error)
 }
 
 type Client struct {

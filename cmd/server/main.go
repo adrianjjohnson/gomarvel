@@ -4,13 +4,14 @@ import (
 	"fmt"
 	"os"
 
-	gmarvel "github.com/adrianjjohnson/gomarvel/client"
+	"github.com/adrianjjohnson/gomarvel"
 )
 
 func main() {
 	publicKey := os.Getenv("PUBLIC_KEY")
 	privateKey := os.Getenv("PRIVATE_KEY")
-	svc := gmarvel.New(publicKey, privateKey)
+
+	svc := gomarvel.New(publicKey, privateKey)
 
 	character, err := svc.GetAllCharacters()
 	if err != nil {

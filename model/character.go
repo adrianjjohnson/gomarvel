@@ -1,4 +1,4 @@
-package gomarvel
+package model
 
 type Result struct {
 	Data Data `json:"data,omitempty"`
