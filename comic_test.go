@@ -2,6 +2,16 @@ package gomarvel
 
 import "testing"
 
+func TestGetAllComics(t *testing.T) {
+	svc := newTestClient()
+	c, err := svc.GetAllComics()
+	if err != nil {
+		t.Error(err)
+	}
+
+	t.Logf("Results: %v", c.Data.Results)
+}
+
 func TestGetComicByCharacterID(t *testing.T) {
 	result := []struct {
 		id   int64

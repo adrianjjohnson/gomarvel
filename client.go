@@ -27,7 +27,7 @@ type CharacterService interface {
 
 // ComicService is responsible for fetching comic data.
 type ComicService interface {
-	GetComicByCharacterID(id int64) (model.ComicResults, error)
+	GetComicByCharacterID(id int64) (model.ComicResult, error)
 }
 
 // Client contains resources necessary to contact the Marvel API.

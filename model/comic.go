@@ -1,6 +1,6 @@
 package model
 
-type ComicResults struct {
+type ComicResult struct {
 	Data ComicData `json:"data,omitempty"`
 }
 
