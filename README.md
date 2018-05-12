@@ -9,7 +9,9 @@ Using this package requres a valid Marvel API public and private key
 [Marvel API Documentation](https://developer.marvel.com/)
 
 ## Instalation
-```go get -u github.com/adrianjjohnson/gomarvel```
+```
+go get -u github.com/adrianjjohnson/gomarvel
+```
 
 ## Example
 ```go

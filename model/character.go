@@ -1,6 +1,6 @@
 package model
 
-type Result struct {
+type CharacterResult struct {
 	Data Data `json:"data,omitempty"`
 }
 

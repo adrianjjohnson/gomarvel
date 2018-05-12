@@ -21,4 +21,10 @@ func main() {
 	for _, i := range character.Data.Results {
 		fmt.Println(i.Name)
 	}
+
+	c, err := svc.GetCharacterByID(1011334)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(c.Data.Results)
 }
