@@ -22,15 +22,6 @@ func timeStamp() string {
 	return ts
 }
 
-func buildRoute(s ...string) string {
-	result := baseURI
-	for _, st := range s {
-		result = result + st
-	}
-
-	return fmt.Sprintf("%s?", result)
-}
-
 func addParameters(publicKey, privateKey string) string {
 	ts := timeStamp()
 	hash := hash(publicKey, privateKey, ts)

@@ -1,10 +1,10 @@
 package model
 
 type CharacterResult struct {
-	Data Data `json:"data,omitempty"`
+	Data CharacterData `json:"data,omitempty"`
 }
 
-type Data struct {
+type CharacterData struct {
 	Offset  int         `json:"offset,omitempty"`
 	Total   int         `json:"total,omitempty"`
 	Limit   int         `json:"limit,omitempty"`
