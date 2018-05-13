@@ -15,6 +15,7 @@
 
 # env files
 .env*
+coverage.txt
 
 # Binaries
 examples/characters/characters
