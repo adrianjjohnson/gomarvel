@@ -24,3 +24,6 @@ jobs:
       # specify any bash command here prefixed with `run: `
       - run: go get -v ./...
       - run: go test -v ./...
+
+      # Upload code coverage
+      - run: bash <(curl -s https://codecov.io/bash)

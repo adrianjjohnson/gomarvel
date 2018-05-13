@@ -1,5 +1,7 @@
 # gomarvel
 
+[![CircleCI](https://circleci.com/gh/adrianjjohnson/gomarvel.svg?style=svg)](https://circleci.com/gh/adrianjjohnson/gomarvel)
+
 ## Description
 Package connects to the Marvel official API
 
