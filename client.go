@@ -3,7 +3,7 @@ package gomarvel
 import (
 	"net/http"
 
-	"github.com/adrianjjohnson/gomarvel/model"
+	"github.com/johnsonaj/gomarvel/model"
 )
 
 const (
