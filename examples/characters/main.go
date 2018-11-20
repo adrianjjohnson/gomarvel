@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/adrianjjohnson/gomarvel"
+	"github.com/johnsonaj/gomarvel"
 )
 
 func main() {

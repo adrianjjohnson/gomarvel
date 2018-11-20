@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/adrianjjohnson/gomarvel/model"
+	"github.com/johnsonaj/gomarvel/model"
 )
 
 // GetAllCharacters returns a list of character results
